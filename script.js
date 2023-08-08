@@ -60,6 +60,7 @@ againBtn.addEventListener('click', function () {
   tries = 20;
   document.body.style.backgroundColor = '#222';
   message.innerHTML = 'Start guessing...';
+  guess.value = '';
   score.innerHTML = 20;
   number.innerHTML = '?';
   randomNumber = Math.floor(Math.random() * 20) + 1;
