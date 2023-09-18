@@ -10,7 +10,7 @@ let score = document.querySelector('.score');
 let highscore = document.querySelector('.highscore');
 
 //Global Variables
-let randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 50) + 1;
 let highScoreNumber = 0;
 let personalScore = 0;
 console.log(randomNumber);
